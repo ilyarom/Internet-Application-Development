@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appcmd>
+    <SITE SITE.NAME="Default Web Site" SITE.ID="1" bindings="http/*:80:" state="Stopped">
+        <site name="Default Web Site" id="1" serverAutoStart="false">
+            <bindings>
+                <binding protocol="http" bindingInformation="*:80:" />
+            </bindings>
+            <limits />
+            <logFile>
+                <customFields>
+                </customFields>
+            </logFile>
+            <traceFailedRequestsLogging />
+            <hsts />
+            <applicationDefaults />
+            <virtualDirectoryDefaults />
+            <ftpServer>
+                <connections />
+                <security>
+                    <dataChannelSecurity />
+                    <commandFiltering>
+                    </commandFiltering>
+                    <ssl />
+                    <sslClientCertificates />
+                    <authentication>
+                        <anonymousAuthentication />
+                        <basicAuthentication />
+                        <clientCertAuthentication />
+                        <customAuthentication>
+                            <providers>
+                            </providers>
+                        </customAuthentication>
+                    </authentication>
+                    <customAuthorization>
+                        <provider />
+                    </customAuthorization>
+                </security>
+                <customFeatures>
+                    <providers>
+                    </providers>
+                </customFeatures>
+                <messages />
+                <fileHandling />
+                <firewallSupport />
+                <userIsolation>
+                    <activeDirectory />
+                </userIsolation>
+                <directoryBrowse />
+                <logFile />
+            </ftpServer>
+            <application path="/">
+                <virtualDirectoryDefaults />
+                <virtualDirectory path="/" physicalPath="C:\inetpub\wwwroot" />
+            </application>
+        </site>
+    </SITE>
+    <SITE SITE.NAME="vkmaster.ru" SITE.ID="2" bindings="http/*:80:vkmaster.ru" state="Stopped">
+        <site name="vkmaster.ru" id="2" serverAutoStart="false">
+            <bindings>
+                <binding protocol="http" bindingInformation="*:80:vkmaster.ru" />
+            </bindings>
+            <limits />
+            <logFile>
+                <customFields>
+                </customFields>
+            </logFile>
+            <traceFailedRequestsLogging />
+            <hsts />
+            <applicationDefaults />
+            <virtualDirectoryDefaults />
+            <ftpServer>
+                <connections />
+                <security>
+                    <dataChannelSecurity />
+                    <commandFiltering>
+                    </commandFiltering>
+                    <ssl />
+                    <sslClientCertificates />
+                    <authentication>
+                        <anonymousAuthentication />
+                        <basicAuthentication />
+                        <clientCertAuthentication />
+                        <customAuthentication>
+                            <providers>
+                            </providers>
+                        </customAuthentication>
+                    </authentication>
+                    <customAuthorization>
+                        <provider />
+                    </customAuthorization>
+                </security>
+                <customFeatures>
+                    <providers>
+                    </providers>
+                </customFeatures>
+                <messages />
+                <fileHandling />
+                <firewallSupport />
+                <userIsolation>
+                    <activeDirectory />
+                </userIsolation>
+                <directoryBrowse />
+                <logFile />
+            </ftpServer>
+            <application path="/" applicationPool="vkmaster.ru">
+                <virtualDirectoryDefaults />
+                <virtualDirectory path="/" physicalPath="D:\Projects\RIP\vkmaster" />
+            </application>
+        </site>
+    </SITE>
+</appcmd>

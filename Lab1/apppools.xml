@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appcmd>
+    <APPPOOL APPPOOL.NAME="DefaultAppPool" PipelineMode="Integrated" RuntimeVersion="v4.0" state="Started">
+        <add name="DefaultAppPool">
+            <processModel />
+            <recycling>
+                <periodicRestart>
+                    <schedule>
+                    </schedule>
+                </periodicRestart>
+            </recycling>
+            <failure />
+            <cpu />
+            <environmentVariables>
+            </environmentVariables>
+        </add>
+    </APPPOOL>
+    <APPPOOL APPPOOL.NAME="vkmaster" PipelineMode="Integrated" RuntimeVersion="v4.0" state="Started">
+        <add name="vkmaster">
+            <processModel />
+            <recycling>
+                <periodicRestart>
+                    <schedule>
+                    </schedule>
+                </periodicRestart>
+            </recycling>
+            <failure />
+            <cpu />
+            <environmentVariables>
+            </environmentVariables>
+        </add>
+    </APPPOOL>
+    <APPPOOL APPPOOL.NAME="localhost" PipelineMode="Integrated" RuntimeVersion="v4.0" state="Started">
+        <add name="localhost">
+            <processModel />
+            <recycling>
+                <periodicRestart>
+                    <schedule>
+                    </schedule>
+                </periodicRestart>
+            </recycling>
+            <failure />
+            <cpu />
+            <environmentVariables>
+            </environmentVariables>
+        </add>
+    </APPPOOL>
+    <APPPOOL APPPOOL.NAME="vkmaster.ru" PipelineMode="Integrated" RuntimeVersion="v4.0" state="Started">
+        <add name="vkmaster.ru">
+            <processModel />
+            <recycling>
+                <periodicRestart>
+                    <schedule>
+                    </schedule>
+                </periodicRestart>
+            </recycling>
+            <failure />
+            <cpu />
+            <environmentVariables>
+            </environmentVariables>
+        </add>
+    </APPPOOL>
+</appcmd>
